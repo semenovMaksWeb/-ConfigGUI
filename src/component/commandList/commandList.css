@@ -1,0 +1,31 @@
+.commandListContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.commandItem {
+    cursor: pointer;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    min-height: 25px;
+}
+
+.commandText {
+    font-weight: bold;
+}
+
+.commandItemChildren {
+    margin-left: 7px;
+}
+
+.commandItemParent {
+    background-color: #aaa;
+}
+
+.commandItemEmptyStart {
+    order: -1;
+}
+
+.commandItemEmpty {
+    order: 1;
+}

@@ -41,7 +41,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="commandListContainer">
         <div class="commandItem commandItemEmptyStart">
             <p class="commandText"></p>
         </div>
@@ -68,7 +68,7 @@
     </div>
 
     <script>
-        const containerList = document.querySelector(".container");
+        const containerList = document.querySelectorAll(".container");
         for (const container of containerList) {
             container.addEventListener(`dragstart`, (evt) => {
                 evt.target.classList.add(`selected`);
